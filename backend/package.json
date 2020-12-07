@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "whats-up"
@@ -17,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/pgajek/Whats-Up-Clone/issues"
   },
-  "homepage": "https://github.com/pgajek/Whats-Up-Clone#readme"
+  "homepage": "https://github.com/pgajek/Whats-Up-Clone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4"
+  }
 }
